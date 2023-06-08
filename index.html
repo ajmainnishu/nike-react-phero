@@ -8,17 +8,20 @@
     <!-- website title -->
     <title>Nike React</title>
 
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- bootstrap css cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
     
     <!-- header section start -->
-    <header>
+    <header class="bg-light pb-5">
         
         <!-- nav section start -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
+            <div class="container py-2">
               <a class="navbar-brand w-25" href="#">
                 <img class="w-100" src="./files/icons/Logo.png" alt="">
               </a>
@@ -44,6 +47,26 @@
             </div>
           </nav>
         <!-- nav section end -->
+
+
+        <!-- banner section start -->
+        <section class="container pt-1 pb-5">
+          <div class="d-flex flex-column-reverse flex-md-row align-items-center">
+            <div class="col-md-6 col-12">
+              <div class="p-4">
+                <img class="w-100" src="./files/images/Group 33092.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="p-4">
+                <h1 class="display-2 fw-bold"><span>NIKE REACT </span>INFINITY RUN 2</h1>
+                    <p class="fw-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a class="btn btn-primary fw-medium py-2 px-4" href=""><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- banner section end -->
 
     </header>
     <!-- header section end -->
